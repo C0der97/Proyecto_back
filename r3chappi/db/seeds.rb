@@ -11,3 +11,4 @@ a.etiquetas.create(nombre:"e1")
 e = Etiqueta.first
 u = Usuario.create(nombre:"u1", correo:"c@c.c", password:"123456")
 u.etiquetas.push(e)
+editor = Editor.create(nombre:"Pepe", correo:"pepe@domain.com", password:"123456")
